@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    margin: 25px 100px 0 117px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header a {
+    text-decoration: none;
+}
+.active {
+    border: 2px solid #5ECE7B;
+    color: #5ECE7B;
+    border-top-color: white;
+    border-right-color: white;
+    border-left-color: white;
+}
+.item {
+    color: black;
+}
+
+.navLinks {
+    line-height: 120%;
+    margin-right: 32px;
+    font-size: 16px;
+}
+
+.categories {
+    display: flex;
+}
+
+.carts {
+    display: flex;
+}
+
+.navCart:first-child {
+    margin-right: 10px;
+}
+.navCart:nth-child(2) {
+    position: relative;
+    margin-right: 22px;
+    bottom: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
